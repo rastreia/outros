@@ -1,2 +1,2 @@
-# outros
+# Outros
 Outros scripts gerais
