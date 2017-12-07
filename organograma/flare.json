@@ -1,0 +1,325 @@
+{
+  "name": "Governo de Minas",
+  "level": "red",
+  "children": [
+    {
+      "name": "Secretaria de Estado de Trabalho e Desenvolvimento Social (SEDESE)",
+      "tag": "Secretaria de Estado",
+      "children": [
+        { "name": "Assessoria Juridica" },
+        { "name": "Assessoria de Gestão de Convênios e Parcelas" },
+        { "name": "Assessoria de Planejamento" },
+        { "name": "Assessoria de Comunicação Social" },
+        { "name": "Assessoria de Integração Constitucional" },
+        { "name": "Assessoria de Tomada de Contas" },
+        { "name": "Unidade Setorial de Controle Interno" },
+        { "name": "Gabinete" },
+
+        {
+          "name": "Subsecretaria de Trabalho e Emprego",
+          "children": [
+            {
+              "name": "Superintendência de Gestão e Fomento ao Emprego",
+              "children": [
+              { "name": "Diretoria de Desenvolvimento de Políticas para Inclusão de Emprego"},
+              { "name": "Diretoria de Atendimento ao Trabalhador"},
+              { "name": "Diretoria de Formação Profissional"},
+              { "name": "Diretoria de Gestão da Estrutura do Sistema Nacional de Empregos - SINE"}
+              ]
+            },
+            { "name": "Assessoria de Relações Institucionais para o Trabalho" },
+            { "name": "Assessoria de Articulação Interserorial" },
+            { "name": "Assessoria de Gestão do Observatório do Trabalho" },
+
+
+            {
+              "name": "Superintendência de Políticas de Empreendedorismo e de Economia Popular Solidária",
+              "children":[
+              { "name": "Diretoria de Desenvolvimento e Estruturação da Produção"},
+              { "name": "Diretoria de Educação e Apoio à Autogestão dos Empreendimentos"},
+              { "name": "Diretoria de Comercialização"},
+              { "name": "Diretoria de Apoio à Participação Social"}
+              ]
+            }
+          ]
+        },
+
+        {
+          "name": "Superintendência de Programas Especiais",
+          "tipe": "superint",
+          "children": [
+            { "name": "Diretoria de Programas para a População de Vilas e Favelas" },
+            { "name": "Diretoria de Programas de Enfrentamento da Pobreza no Campo" },
+            { "name": "Diretoria de Monitoramento e Avaliação de Programas Especiais"},
+            { "name": "Diretoria de Apoio aos Municípios na Promoção do Desenvolvimento Social" }
+          ]
+        },
+
+        {
+          "name": "Superintendência de Planejamento Gestão e Finanças",
+          "tipe": "superint",
+          "children": [
+            { "name": "Diretoria de Acompanhamento e Prestação de Contas" },
+            { "name": "Diretoria de Gestão de Compras e Acompanhamento de Contratos" },
+            { "name": "Diretoria de Logística e Manutenção" },
+            { "name": "Diretoria de Recursos Humanos" },
+            { "name": "Diretoria de Tecnologia da Informação e Comunicação" }
+          ]
+        },
+
+        {
+          "name": "Superintendência de Interiorização",
+          "tipe": "superint",
+          "children": [
+            { "name": "Diretorias Regionais" },
+            { "name": "Diretoria de Coordenação de Políticas Públicas Regionais" }
+          ]
+        },
+
+        {
+          "name": "Subsecretaria de Assistencia Social",
+          "children": [
+            { "name": "Assessoria de Articulação da Politica de Assistencia Social"},
+            {
+              "name": "Superintendencia de Capacitação, Monitoramento, controle e Avaliação de Politicas de Assistência Social",
+              "children": [
+                { "name": "Diretoria de Gestão do Trabalho e Educação Permanente do SUAS"},
+                { "name": "Diretoria de Vigilância Socioassistencial" },
+                { "name": "Diretoria de Regulação do SUAS" }
+              ]
+            },
+            {
+              "name": "Superintendência de Proteção Social Especial",
+              "children": [
+                { "name": "Diretoria de Gestão de Medidas Socioeducativas em Meio Aberto"},
+                { "name": "Diretoria de Proteção Social de Média Complexidade " },
+                { "name": "Diretoria de Proteção Social de Alta Complexidade " },
+                { "name": "Diretoria de Articulação com Sistema de Garantia de Direitos e Integração da Rede Socioassistencial" },
+                { "name": "Centro de Refeência Especializados de Assistência Social - CREAS Regionais"}
+              ]
+            },
+            {
+              "name": "Superintendencia do Fundo Estaadual de Assistência Social",
+              "children": [
+                { "name": "Diretoria de Gestão do FEAS"},
+                { "name": "Diretoria Análise de contas" }
+              ]
+            },
+            {
+              "name": "Superintendencia de Proteção Social Básica e Gestão do Sistema Único de Assistência Social",
+              "children": [
+                { "name": "Diretoria de Gestão do SUAS"},
+                { "name": "Diretoria Credenciamento e Apoio às Entidades Socioassistenciais"},
+                { "name": "Diretoria de Serviços Socioassistenciais"},
+                { "name": "Diretoria de Benefícios e Transferência de Renda"}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+
+
+    {
+      "name": "Secretaria de Estado de Agricultura, Pecuária e Abastecimento",
+      "type": "secretaria",
+      "children": [
+        { "name": "Instítuto Mineiro de Agropecuária - IMA" },
+        { "name": "Empresa de Pesquisa Agropecuária de Minas Gerais - EPAMIG" },
+        { "name": "Empresa de Assistência Técnoca e Extensão Rural do Estado de Minas Gerais - EMATER" },
+        { "name": "Conselho Estadual de Política Agrícola - CEPA" },
+        { "name": "Conselho Diretor das Ações de Manejo de Solo e Água - CDSOLO" },
+        { "name": "Assessoria de Comunicação Social" },
+        { "name": "Assessoria Jurídica" },
+        { "name": "Assessoria de Técnicas Especiais" },
+        { "name": "Gabinete" },
+        {
+          "name": "Assessoria de Planejamento",
+          "children":[
+            {"name": "Núcleo de Tecnologia da Informação e Comunicação"}
+          ]
+        },
+        {
+          "name": "Unidade Setorial de Controle Interno",
+          "children":[
+            {"name": "Núcleo de Correção Administrativa"}
+          ]
+        },
+        {
+          "name": "Subsecretaria de Política e Econimia Agrícula",
+          "children":[
+            {
+              "name": "Supeintendência de Abastecimento e Economia Agrícula",
+              "children":[
+                {"name": "Diretoria de Abastecimento"},
+                {"name": "Diretoria Economia Agrícula"}
+              ]
+            },
+            {
+              "name": "Supeintendência de Apoio à Agricultura",
+              "children":[
+                {"name": "Diretoria de Apoio à Agroindustrialização de Produtos de Origem Animal"},
+                {"name": "Diretoria de Apoio à Agroindustrialização de Produtos de Origem Vegetal"}
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Superintedência de Planejamento, Gestão e Finanças",
+          "children":[
+            {"name": "Diretoria de Recursos Humanos"},
+            {"name": "Diretoria de Contabilidade e Finança"},
+            {"name": "Diretoria de Planejamento, Orçamento e Logística"},
+            {"name": "Diretoria de Convênios"}
+          ]
+        },
+        {
+          "name": "Subsecretaria de Desenvolvimento Rural Sustentável",
+          "children":[
+            {
+              "name": "Superintendência de Desenvolvimento Agropecuário",
+              "children": [
+                {"name": "Diretoria de Cadeias Produtivas Agrículas"},
+                {"name": "Diretoria de Cadeias Produtivas Pecuárias"}
+              ]
+            },
+            {
+              "name": "Superintendência de Desenvolvimento Social e Ambiental",
+              "children": [
+                {"name": "Diretoria de Cadeias Produtivas"},
+                {"name": "Diretoria de Desenvolvimento Social"}
+              ]
+            },
+            {
+              "name": "Superintendência de Engenharia e Logística de Infraestura Rural",
+              "children":[
+              {"name": "Diretoria de Obras de Infraestrutura Rural"},
+              {"name": "Diretoria de Desenvolvimento Social"}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+
+
+    {
+      "name": "Secretaria de Estado de Educação (SEE)",
+      "children": [
+        { "name": "Assessoria Juridica" },
+        { "name": "Assessoria de Gestão de Convênios e Parcelas" },
+        { "name": "Assessoria de Planejamento" },
+        { "name": "Assessoria de Comunicação Social" },
+        { "name": "Assessoria de Integração Constitucional" },
+        { "name": "Assessoria de Tomada de Contas" },
+        { "name": "Unidade Setorial de Controle Interno" },
+        { "name": "Gabinete" }
+      ]
+    },
+
+
+    {
+      "name": "Secretaria de Estado de Direitos Humanos, Participação Social e Cidadania (SEDPAC)",
+      "children": [
+        { "name": "Assessoria Juridica" },
+        { "name": "Assessoria de Gestão de Convênios e Parcelas" },
+        { "name": "Assessoria de Planejamento" },
+        { "name": "Assessoria de Comunicação Social" },
+        { "name": "Assessoria de Integração Constitucional" },
+        { "name": "Assessoria de Tomada de Contas" },
+        { "name": "Unidade Setorial de Controle Interno" },
+        { "name": "Gabinete" }
+      ]
+    },
+
+
+    {
+      "name": "Secretaria de Estado de Turismo",
+      "children": [
+        { "name": "Assessoria Juridica" },
+        { "name": "Assessoria de Gestão de Convênios e Parcelas" },
+        { "name": "Assessoria de Planejamento" },
+        { "name": "Assessoria de Comunicação Social" },
+        { "name": "Assessoria de Integração Constitucional" },
+        { "name": "Assessoria de Tomada de Contas" },
+        { "name": "Unidade Setorial de Controle Interno" },
+        { "name": "Gabinete" }
+      ]
+    },
+
+
+    {
+      "name": "Secretaria de Estado de Governo",
+      "children": [
+        { "name": "Assessoria Juridica" },
+        { "name": "Assessoria de Gestão de Convênios e Parcelas" },
+        { "name": "Assessoria de Planejamento" },
+        { "name": "Assessoria de Comunicação Social" },
+        { "name": "Assessoria de Integração Constitucional" },
+        { "name": "Assessoria de Tomada de Contas" },
+        { "name": "Unidade Setorial de Controle Interno" },
+        { "name": "Gabinete" }
+      ]
+    },
+
+
+    {
+      "name": "Secretária de Estado de Casa Civil e de Relações Institucionais",
+      "children": [
+        { "name": "Assessoria Juridica" },
+        { "name": "Assessoria de Gestão de Convênios e Parcelas" },
+        { "name": "Assessoria de Planejamento" },
+        { "name": "Assessoria de Comunicação Social" },
+        { "name": "Assessoria de Integração Constitucional" },
+        { "name": "Assessoria de Tomada de Contas" },
+        { "name": "Unidade Setorial de Controle Interno" },
+        { "name": "Gabinete" }
+      ]
+    },
+
+
+    {
+      "name": "Secretaria de Estado de Esportes",
+      "children": [
+        { "name": "Assessoria Juridica" },
+        { "name": "Assessoria de Gestão de Convênios e Parcelas" },
+        { "name": "Assessoria de Planejamento" },
+        { "name": "Assessoria de Comunicação Social" },
+        { "name": "Assessoria de Integração Constitucional" },
+        { "name": "Assessoria de Tomada de Contas" },
+        { "name": "Unidade Setorial de Controle Interno" },
+        { "name": "Gabinete" }
+      ]
+    },
+
+
+    {
+      "name": "Secretaria de Estado de Desenvolvimento Agrário (SEDA)",
+      "children": [
+        { "name": "Assessoria Juridica" },
+        { "name": "Assessoria de Gestão de Convênios e Parcelas" },
+        { "name": "Assessoria de Planejamento" },
+        { "name": "Assessoria de Comunicação Social" },
+        { "name": "Assessoria de Integração Constitucional" },
+        { "name": "Assessoria de Tomada de Contas" },
+        { "name": "Unidade Setorial de Controle Interno" },
+        { "name": "Gabinete" }
+      ]
+    },
+
+
+    {
+      "name": "Secretaria de Estado de Segurança Pública",
+      "children": [
+        { "name": "Assessoria Juridica" },
+        { "name": "Assessoria de Gestão de Convênios e Parcelas" },
+        { "name": "Assessoria de Planejamento" },
+        { "name": "Assessoria de Comunicação Social" },
+        { "name": "Assessoria de Integração Constitucional" },
+        { "name": "Assessoria de Tomada de Contas" },
+        { "name": "Unidade Setorial de Controle Interno" },
+        { "name": "Gabinete" }
+      ]
+    }
+  ]
+}
