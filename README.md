@@ -1,2 +1,2 @@
 # Outros
-Outros scripts gerais
+Outros scripts gerais e projetos.
